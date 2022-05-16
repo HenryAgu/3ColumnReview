@@ -48,30 +48,38 @@ h1{
 .sedan-button,.suvs-button,.luxury-button{
     display: block;
     margin-top: 50px;
-    background: transparent;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
     font-size: 15px;
-    color: hsl(0, 0%, 95%);
     font-weight: bolder;
     border: 2px solid hsl(0, 0%, 95%);
     padding: 10px 25px 10px 25px;
     border-radius: 20px;
 }
 
+.suvs-button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-button{
+    color: hsl(179, 100%, 13%);
+}
+
 .sedan-button:hover{
-    background-color: white;
-    color: hsl(31, 77%, 52%);
+    background: transparent;
+    color: hsl(0, 0%, 95%);
     cursor: pointer;
 }
 
 .suvs-button:hover{
-    background-color: white;
-    color: hsl(184, 100%, 22%);
+    background: transparent;
+    color: hsl(0, 0%, 95%);
     cursor: pointer;
 }
 
 .luxury-button:hover{
-    background-color: white;
-    color: hsl(179, 100%, 13%);
+    background: transparent;
+    color: hsl(0, 0%, 95%);
     cursor: pointer;
 }
 
